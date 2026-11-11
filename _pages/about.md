@@ -32,32 +32,50 @@ I am a Project Specialist (Research Assistant) at Dong Fureng Institute of Econo
 **Email:** <bufanjiang@uchicago.edu>
 
 <style>  
-  <u>* Photo on the left, text on the right.  
-     To make the photo bigger or smaller, change the three 200px values below  
-     (e.g. 240px for larger, 160px for smaller) and keep them equal. *</u>  
-  .profile.float-left {  
-    margin-right: 1.5rem;  
+  .post article {  
+    display: grid;  
+    grid-template-columns: 220px minmax(0, 1fr);  
+    column-gap: 1.5rem;  
+    align-items: start;  
   }  
-  .profile.float-left figure {  
-    width: 200px;  
+  .post article > .profile {  
+    float: none !important;  
+    width: 100% !important;  
     max-width: 100%;  
-    margin: 0 0 1rem 0;  
+    margin: 0 !important;  
+    justify-self: start;  
+    grid-column: 1;  
+    grid-row: 1;  
   }  
-  .profile.float-left picture,  
-  .profile.float-left img {  
+  .post article > .clearfix {  
+    grid-column: 2;  
+    grid-row: 1;  
+    min-width: 0;  
+  }  
+  .post article > .profile figure {  
+    width: 100%;  
+    max-width: 100%;  
+    margin: 0;  
+  }  
+  .post article > .profile picture,  
+  .post article > .profile img {  
     display: block;  
     width: 100%;  
     height: auto;  
   }  
-  @media (min-width: 576px) {  
-    .profile.float-left {  
-      width: 200px;  
-      margin-bottom: 0;  
+  @media (max-width: 575px) {  
+    .post article {  
+      grid-template-columns: minmax(0, 1fr);  
     }  
-    .profile.float-left figure {  
-      width: 100%;  
-      max-width: 100%;  
-      margin: 0;  
+    .post article > .profile {  
+      width: 200px !important;  
+      margin: 0 0 1rem 0 !important;  
+      grid-column: 1;  
+      grid-row: 1;  
+    }  
+    .post article > .clearfix {  
+      grid-column: 1;  
+      grid-row: 2;  
     }  
   }  
 </style>

@@ -1,20 +1,18 @@
----
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Dong Fureng Institute of Economic and Social Development, Wuhan University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Dong Fureng Institute of Economic and Social Development</p>
+    <p>Wuhan University</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes the email icon (the only contact entry in _data/socials.yml)
 
 announcements:
   enabled: true # includes a list of news items
@@ -25,10 +23,4 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
----
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a Project Specialist (Research Assistant) at Dong Fureng Institute of Economic and Social Development, Wuhan University, China. My work involves both the China Health and Retirement Longitudinal Study (CHARLS) and the China Health and Economy Longitudinal Study (CHELS). My research interests lie in health economics, labour economics, and economics of education. Before joining the institute, I obtained my Master of Arts in the Social Sciences (Economics) from the University of Chicago in 2026, and Bachelor of Economics with honors from Zhejiang University in 2025. them.

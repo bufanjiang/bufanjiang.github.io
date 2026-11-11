@@ -8,12 +8,13 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Dong Fureng Institute of Economic and Social Development</p>
-    <p>Wuhan University</p>
+  # more_info was removed: the affiliation is already shown in the subtitle above.
+  # To add something below the photo later, use e.g.
+  # more_info: >
+  #   <p>Some short line of text</p>
 
 selected_papers: false # re-enable when you add your own papers to _bibliography/papers.bib
-social: true # includes the email icon (the only contact entry in _data/socials.yml)
+social: false # the email is written out as text in the body below; no icon row
 
 announcements:
   enabled: false # re-enable when you add your own items to _news/
@@ -27,6 +28,8 @@ latest_posts:
 ---
 
 I am a Project Specialist (Research Assistant) at Dong Fureng Institute of Economic and Social Development, Wuhan University, China. My work involves both the China Health and Retirement Longitudinal Study (CHARLS) and the China Health and Economy Longitudinal Study (CHELS). My research interests lie in health economics, labour economics, and economics of education. Before joining the institute, I obtained my Master of Arts in the Social Sciences (Economics) from the University of Chicago in 2026, and Bachelor of Economics with honors from Zhejiang University in 2025.
+
+**Email:** [bufanjiang@uchicago.edu](mailto:bufanjiang@uchicago.edu)
 
 <style>  
   .profile.float-right figure {  

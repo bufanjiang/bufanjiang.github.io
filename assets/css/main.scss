@@ -23,12 +23,17 @@
 @use "typograms";
 
 :root {
-  --global-theme-color: #123c6b;
-  --global-hover-color: #123c6b;
-  --global-code-bg-color: rgba(18, 60, 107, 0.05);
+  --global-theme-color: #123c6b !important;
+  --global-hover-color: #123c6b !important;
+  --global-code-bg-color: rgba(18, 60, 107, 0.05) !important;
 }
 
 html[data-theme="dark"] {
-  --global-theme-color: #5b93d1;
-  --global-hover-color: #5b93d1;
+  --global-theme-color: #5b93d1 !important;
+  --global-hover-color: #5b93d1 !important;
+}
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  display: none !important;
 }

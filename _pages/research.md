@@ -20,6 +20,18 @@ nav_order: 2
   <a class="paper-download" href="/assets/pdf/Jiang_Field_Labels.pdf" download>Download paper</a>
 </div>
 
+<div class="research-item">
+  <h3>The Wrong Kind of Convergence: School-Based Tutoring, Private Tutoring, and Rural–Urban Inequality in China’s Double Reduction Era</h3>
+  <p class="research-meta">Bufan Jiang</p>
+  <details>
+    <summary>Show abstract</summary>
+    <div class="research-abstract">
+      <p>Private supplementary tutoring—shadow education—has expanded across East Asia and other middle-income countries, and access is uneven: urban and affluent families buy more tutoring than rural and poor families. China’s 2021 “double reduction” policy restricted private academic tutoring while expanding school-based after-school services, creating a critical case for asking whether public provision can substitute for private tutoring and reduce inequality. Using the China Family Panel Studies child module for 2018, 2020, and 2022, this paper examines the rural–urban tutoring gap among children aged 10–15. The aggregate gap in any tutoring fell from 19.8 to 6.5 percentage points. Decomposition shows that the school-based gap fell from 14.0 to 2.2 points, while the private gap fell only from 7.5 to 4.9 points; conditional on family background, the private gap changed little and the change is not statistically significant. Rural households also continued to spend far less on tutoring. The aggregate convergence therefore reflects public school-based provision—much of which predates 2021—rather than convergence in the private market. Public provision can narrow access gaps without reducing market-based inequality, with implications for regulating shadow education in developing countries.</p>
+    </div>
+  </details>
+  <a class="paper-download" href="/assets/pdf/Jiang_School_Private.pdf" download>Download paper</a>
+</div>
+
 <style>
   .post-header { display: none !important; }
   .research-item { border-bottom: 1px solid rgba(128,128,128,0.3); padding: 0 0 1.5rem; margin-bottom: 1.5rem; }

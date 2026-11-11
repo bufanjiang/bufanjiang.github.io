@@ -19,7 +19,7 @@ nav_order: 2
   </details>  
 |  |  |  
 | --- | --- |  
-  <a class="paper-download" href="{{ '/assets/papers/Jiang_Field_Labels_JPE.docx' | relative_url }}" download>Download paper (DOCX)</a>  
+  <a class="paper-download" href="{{ '/assets/papers/Jiang_Field_Labels_JPE.pdf' | relative_url }}" download>Download paper</a>  
 </div>
 
 <style>  

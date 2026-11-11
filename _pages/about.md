@@ -5,7 +5,7 @@ permalink: /
 subtitle: Dong Fureng Institute of Economic and Social Development, Wuhan University
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # more_info was removed: the affiliation is already shown in the subtitle above.
@@ -29,19 +29,35 @@ latest_posts:
 
 I am a Project Specialist (Research Assistant) at Dong Fureng Institute of Economic and Social Development, Wuhan University, China. My work involves both the China Health and Retirement Longitudinal Study (CHARLS) and the China Health and Economy Longitudinal Study (CHELS). My research interests lie in health economics, labour economics, and economics of education. Before joining the institute, I obtained my Master of Arts in the Social Sciences (Economics) from the University of Chicago in 2026, and Bachelor of Economics with honors from Zhejiang University in 2025.
 
-**Email:** [bufanjiang@uchicago.edu](mailto:bufanjiang@uchicago.edu)
+**Email:** <bufanjiang@uchicago.edu>
 
 <style>  
-  .profile.float-right figure {  
-    width: 40%;  
-    max-width: 40%;  
-    margin-left: auto;  
-    margin-right: 0;  
+  <u>* Photo on the left, text on the right.  
+     To make the photo bigger or smaller, change the three 200px values below  
+     (e.g. 240px for larger, 160px for smaller) and keep them equal. *</u>  
+  .profile.float-left {  
+    margin-right: 1.5rem;  
   }  
-  .profile.float-right picture,  
-  .profile.float-right img {  
+  .profile.float-left figure {  
+    width: 200px;  
+    max-width: 100%;  
+    margin: 0 0 1rem 0;  
+  }  
+  .profile.float-left picture,  
+  .profile.float-left img {  
     display: block;  
     width: 100%;  
     height: auto;  
+  }  
+  @media (min-width: 576px) {  
+    .profile.float-left {  
+      width: 200px;  
+      margin-bottom: 0;  
+    }  
+    .profile.float-left figure {  
+      width: 100%;  
+      max-width: 100%;  
+      margin: 0;  
+    }  
   }  
 </style>

@@ -31,7 +31,7 @@ My research interests lie in health economics, labour economics, and the economi
 
 ## Education
 
-- **2025–2026** — Master of Arts in the Social Sciences (Economics), The University of Chicago
+- **2025–2026** — Master of Arts in the Economics, The University of Chicago
 - **2024** — Exchange Student, University of Zurich
 - **2021–2025** — Bachelor of Economics (with honors), Zhejiang University
 
